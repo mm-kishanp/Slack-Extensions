@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Slack Last Message Time",
+  "version": "1.0.0",
+  "description": "Shows the date and time of the last message next to every channel and DM in the Slack sidebar.",
+  "permissions": ["storage"],
+  "host_permissions": ["https://app.slack.com/*", "https://*.slack.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://app.slack.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "Slack Last Message Time",
+    "default_popup": "popup.html"
+  }
+}
