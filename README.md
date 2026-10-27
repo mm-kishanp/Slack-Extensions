@@ -4,12 +4,12 @@ A Chrome extension that shows the date and time of the last message (sent or rec
 
 ```text
 Starred
-  Hardik Patel                11:12 PM
-  Alejandro Roman Franco     Yesterday
-  Alexy Gallardo                Sep 21
+  Virat Patel                11:12 PM
+  Jon Roman Franco     Yesterday
+  Alex                Sep 21
 Direct messages
-  Ryan  📅                     6:42 PM
-  Nirmal Kumar                  Sep 23
+  Ayush                     6:42 PM
+  Kumar                  Sep 23
 ```
 
 ## Install
